@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/swirldev/swirlify.svg?branch=master)](https://travis-ci.org/swirldev/swirlify) [![CRAN version](http://www.r-pkg.org/badges/version/swirlify)](https://cran.r-project.org/package=swirlify)
+
 # swirlify
 
 swirlify is an R package that includes tools for writing and sharing swirl
@@ -5,12 +7,17 @@ courses. For more information on swirl, visit [our website](http://swirlstats.co
 
 ## Installation
 
-```r
-# If you don't have devtools installed run:
-# install.packages("devtools")
+### CRAN Version
 
+```r
+install.packages("swirlify")
+```
+
+### Development Version
+
+```r
 library(devtools)
-install_github(c("swirldev/swirl", "swirldev/swirlify"))
+install_github("swirldev/swirlify", ref = "dev")
 ```
 
 ## Quick Start
@@ -36,7 +43,7 @@ pack_course()
 ## Documentation
 
 For extensive documentation on swirlify and tips for writing swirl courses see
-[the swirlify wiki](https://github.com/swirldev/swirlify/wiki).
+[the swirlify website](http://swirlstats.com/swirlify/).
 
 ## Course structure
 
